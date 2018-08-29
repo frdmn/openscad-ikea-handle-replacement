@@ -5,8 +5,8 @@
 $fn = 99;
 
 // Variables
-SUPPORT_HEIGHT=30;
-HANDLE_LENGTH=100;
+SUPPORT_HEIGHT=24;
+HANDLE_LENGTH=136.4;
 
 // Function to draw handle base
 module handle(){
