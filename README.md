@@ -1,4 +1,4 @@
-# openscad-ikea-handle-replacement (🛠 WIP! 🚧)
+# openscad-ikea-handle-replacement
 
 [![](http://up.frd.mn/YEQlenhhdk.png)](http://openjscad.org/#https://raw.githubusercontent.com/frdmn/openscad-ikea-handle-replacement/master/01-handle.scad)
 
