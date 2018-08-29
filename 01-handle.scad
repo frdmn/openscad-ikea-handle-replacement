@@ -2,7 +2,7 @@
 // Author: Jonas Friedmann (@frdmn) <j@frd.mn>
 // Licensed under MIT license
 
-$fn = 99;
+$fn = 100;
 
 // Variables
 SUPPORT_HEIGHT=24;
