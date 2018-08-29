@@ -1,8 +1,14 @@
+// IKEA DOMBÅS handle
+// Author: Jonas Friedmann (@frdmn) <j@frd.mn>
+// Licensed under MIT license
+
 $fn = 99;
 
+// Variables
 SUPPORT_HEIGHT=30;
 HANDLE_LENGTH=100;
 
+// Function to draw handle base
 module handle(){
     difference(){
         translate([0,5,0]){
@@ -17,6 +23,7 @@ module handle(){
     }
 }
 
+// Function to draw (regular or flipped) support pillars
 module support(flipped){
     difference(){
         if (flipped){
@@ -39,6 +46,7 @@ module support(flipped){
     }
 }
 
+// Draw stuff
 handle();
 support(true);
 translate([HANDLE_LENGTH-5,0,0]){
