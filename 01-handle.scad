@@ -41,7 +41,7 @@ module support(flipped){
         }
         
         translate([flipped ? 5 : 0,5,SUPPORT_HEIGHT-10]){
-                cylinder(h=10, r=2);
+                cylinder(h=10, d=3);
         }
     }
 }
